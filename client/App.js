@@ -1,6 +1,9 @@
 import React from 'react';
 import {BrowserRouter, Route, Match} from 'react-router-dom';
 import FormContainer from './FormContainer';
+import bootstrap from 'bootstrap';
+
+require('bootstrap/dist/css/bootstrap.css');
 
 class App extends React.Component {
     render = () => {
