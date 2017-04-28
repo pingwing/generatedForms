@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route, Match} from 'react-router-dom';
-import Form from './Form';
+import FormContainer from './FormContainer';
 
 class App extends React.Component {
     render = () => {
@@ -8,7 +8,7 @@ class App extends React.Component {
             <BrowserRouter>
                     <div className="container">
 
-                        <Route exact path="/" component={Form}/>
+                        <Route exact path="/" component={FormContainer}/>
 
                         {this.props.children}
                     </div>
